@@ -22,7 +22,7 @@ if output_response.status_code == 200:
                         
     lines = formatted_json.split('\n')                   
 
-    file_add = 'C:/Users/DELLL/Desktop/h/api_data.json'    
+    file_add = './api_data.json'    
     with open(file_add,'w') as file:                    
         file.write( formatted_json)                      
     print('Your data is save successfully!')

@@ -8,7 +8,7 @@ pipeline_run_count = 0
 def run_pipeline():
     global pipeline_run_count
     if pipeline_run_count < 5:
-        subprocess.run(["python", "C:/Users/DELLL/Desktop/h/pipeline.py"])
+        subprocess.run(["python", "./pipeline.py"])
         pipeline_run_count += 1
     else:
         

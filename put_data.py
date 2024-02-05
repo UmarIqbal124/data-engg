@@ -31,7 +31,7 @@ database = 'weatherapi'
 table_name = 'data'
 
 
-json_file_path = 'C:/Users/DELLL/Desktop/h/api_data.json'
+json_file_path = './api_data.json'
 
 
 with open(json_file_path, 'r') as json_file:
